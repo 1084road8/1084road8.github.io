@@ -172,23 +172,23 @@ those extra cold Wyoming mornings.
 						<div class="inner">
 							<h2 class="major">Request a Showing or More Information</h2>
 							<p>Call, email, or send a message using the form below. This home is truly one-of-a-kind and won't last long.</p>
-							<form method="post" action="mailto:1084road8@gmail.com">
+							<form method="post" action="formdata.php">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="name" id="name" value="<?php echo $name;?>"/>
 									</div>
 									<div class="field">
 										<label for="phone">Phone</label>
-										<input type="text" name="phone" id="phone" />
+										<input type="text" name="phone" id="phone" value="<?php echo $phone;?>" />
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<input type="email" name="email" id="email" value="<?php echo $email;?>" />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<textarea name="message" id="message" rows="4"><?php echo $message;?></textarea>
 									</div>
 								</div>
 								<ul class="actions">
