@@ -3586,7 +3586,7 @@ input, select, textarea {
     width: 100%;
     z-index: 1; }
   #banner:after {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    background: linear-gradient(135deg, #45558d 0%, #111111 74%);
     content: ' ';
     display: block;
     height: 100%;
@@ -3596,7 +3596,7 @@ input, select, textarea {
     top: 0;
     webkit-linear-gradientidth: 100%;
     width: 100%;
-    z-index: 1; }
+    z-index: -1; }
   #banner.small {
     height: 30vh !important;
     min-height: 30vh; }
