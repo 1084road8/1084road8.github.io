@@ -3084,7 +3084,7 @@ input, select, textarea {
 		position: fixed;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		z-index: 20000;
 	}
 
 		#header h1 {
@@ -3097,6 +3097,7 @@ input, select, textarea {
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
+			z-index: 5000;
 		}
 
 			#header h1 a {
@@ -3433,6 +3434,7 @@ input, select, textarea {
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
+			z-index: 1000;
 		}
 
 		#banner p {
@@ -3562,7 +3564,8 @@ input, select, textarea {
     overflow: hidden;
     position: absolute;
     right: 50%;
-    width: auto; }
+    width: auto;
+    z-index: 10;}
   #banner:before {
     -moz-transition: opacity 3s ease;
     -webkit-transition: opacity 3s ease;
