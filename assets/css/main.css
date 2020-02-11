@@ -3565,7 +3565,7 @@ input, select, textarea {
     position: absolute;
     right: 50%;
     width: auto;
-    z-index: 10;}
+                }
   #banner:before {
     -moz-transition: opacity 3s ease;
     -webkit-transition: opacity 3s ease;
