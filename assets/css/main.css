@@ -3584,7 +3584,7 @@ input, select, textarea {
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 1; }
+    z-index: -1; }
   #banner:after {
     background: linear-gradient(135deg, #45558d 0%, #111111 74%);
     content: ' ';
